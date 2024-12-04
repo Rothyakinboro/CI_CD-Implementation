@@ -9,6 +9,9 @@ Continuous Integration and Continuous Deployment (CI/CD) are foundational practi
 - Containerize the application using Docker and deploy it to a Kubernetes cluster for scalability.
 - Implement deployment monitoring and synchronization using ArgoCD.
 
+![image](https://github.com/user-attachments/assets/d91997ed-fb29-409b-8914-f32901c0c39f)
+
+
 ## Prerequisites
 
 - A GitHub account
