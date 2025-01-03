@@ -1,0 +1,14 @@
+{
+    "name": "webapp-test",
+    "version": "1.0.0",
+    "description": "Tests for web application HTML",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "jsdom": "^21.0.0"
+    }
+  }
+  
