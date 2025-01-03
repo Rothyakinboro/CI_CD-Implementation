@@ -1,4 +1,9 @@
 {
     "name": "Release",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "devDependencies": {
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^11.0.1",
+        "semantic-release": "^24.2.1"
+    }
 }
