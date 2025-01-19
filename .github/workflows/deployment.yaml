@@ -43,7 +43,7 @@
           run: |
             REPO_NAME="webapp"
             REPO_EXISTS=$(aws ecr describe-repositories --repository-names $REPO_NAME --region $AWS_REGION 2>&1 || true)
-            if echo "$REPO_EXISTS" | grep -q "RepositoryNotFoundException";
+            if echo "$REPO_EXISTS" | grep -q "RepositoryNotFoundException"; then
               echo "Repository does not exist. Creating repository $REPO_NAME..."
               aws ecr create-repository --repository-name $REPO_NAME --region $AWS_REGION
             else
