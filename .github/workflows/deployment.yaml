@@ -70,5 +70,5 @@
           with:
             context: .
             push: true
-            tags: ${{ steps.login-ecr.outputs.registry }}/webapp:1.0.1
+            tags: ${{ steps.login-ecr.outputs.registry }}/webapp:1.0.2
   
