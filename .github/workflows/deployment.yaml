@@ -40,7 +40,7 @@
           uses: aws-actions/amazon-ecr-login@v2
         - name: Check or Create ECR Repository
           id: ecr-check
-          run: >
+          run: |
             REPO_NAME="webapp"
             REPO_EXISTS=$(aws ecr describe-repositories --repository-names $REPO_NAME --region $AWS_REGION 2>&1 || true)
             if echo "$REPO_EXISTS" | grep -q "RepositoryNotFoundException";
