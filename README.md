@@ -86,7 +86,7 @@ Add a GitHub Actions pipeline to deploy applications to a Kubernetes cluster.
 
 Pull the image from ECR to a local Kubernetes cluster, e.g., Docker Desktop.
 
-1. **Pass Credentials:**  
+1. **Pass Credentials:**  (replace "region" with your AWS region eg us-east-1. replace "aws_account_id" with your AWS acct. id)
    ```bash
    aws ecr get-login-password --region region | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.region.amazonaws.com
 2. **Pull the image to Docker Desktop:**
