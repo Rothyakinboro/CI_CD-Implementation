@@ -91,7 +91,7 @@ Pull the image from ECR to a local Kubernetes cluster, e.g., Docker Desktop.
    aws ecr get-login-password --region region | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.region.amazonaws.com
 2. **Pull the image to Docker Desktop:**
     ```bash
-   docker pull aws_account_id.dkr.ecr.ca-central-1.amazonaws.com/amazonlinux:latest
+   docker pull aws_account_id.dkr.region.amazonaws.com/amazonlinux:latest
 ## Step 4: Set Up ArgoCD Application and Directory Path
 
 1. Ensure ArgoCD is set up and has access to the Git repository.
