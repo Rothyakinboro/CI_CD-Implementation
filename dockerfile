@@ -1,4 +1,4 @@
-FROM nginx:1.27.3-alpine-slim
+FROM nginx:1.27.4-alpine-slim
 COPY src/html /usr/share/nginx/html
 
 # This is not really neccessary, only good for documentation
